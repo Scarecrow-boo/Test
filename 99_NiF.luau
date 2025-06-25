@@ -5,9 +5,9 @@ local Window = Rayfield:CreateWindow({
    Name = "Breaker Hub | 99 Nights In Forest",
    LoadingTitle = "Welcome to Breaker Hub",
    LoadingSubtitle = "Join (.gg/DMNXkC6CYB)",
-   ConfigurationSaving = { Enabled = false },
-   Discord = { Enabled = false },
-   KeySystem = false
+   ConfigurationSaving = "false",
+   Discord = "false",
+   KeySystem = "false",
    Theme = "Green",
 })
 
