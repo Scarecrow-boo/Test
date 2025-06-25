@@ -14,10 +14,6 @@ local Window = Rayfield:CreateWindow({
 -- Tabs
 local InfoTab = Window:CreateTab("Info", 4483362458)
 local ESPTab = Window:CreateTab("ESP", 4483362458)
-local TeleportTab = Window:CreateTab("Teleport", 4483362458)
-local BringTab = Window:CreateTab("Bring Items", 4483362458)
-local HitboxTab = Window:CreateTab("Hitbox", 4483362458)
-local MiscTab = Window:CreateTab("Misc", 4483362458)
 InfoTab:CreateParagraph({
    Title = "Breaker Hub Said...",
    Content = "If you just for key then leave the server fuck you"
@@ -563,6 +559,8 @@ RunService.RenderStepped:Connect(function()
     end
 end)
 
+local MiscTab = Window:CreateTab("Misc", 4483362458)
+
 -- FPS + Ping Toggles
 MiscTab:CreateToggle({
    Name = "Show FPS",
@@ -635,6 +633,8 @@ MiscTab:CreateButton({
     end
 })
 
+local TeleportTab = Window:CreateTab("Teleport", 4483362458)
+
 TeleportTab:CreateButton({
    Name = "Teleport to Camp",
    Callback = function()
@@ -660,6 +660,8 @@ TeleportTab:CreateButton({
         hrp.CFrame = CFrame.new(pos)
     end
 })
+
+local BringTab = Window:CreateTab("Bring Items", 4483362458)
 
 BringTab:CreateButton({
     Name = "Bring Everything",
@@ -947,6 +949,8 @@ task.spawn(function()
         task.wait(2)
     end
 end)
+
+local HitboxTab = Window:CreateTab("Hitbox", 4483362458)
 
 -- UI Controls
 HitboxTab:CreateToggle({
