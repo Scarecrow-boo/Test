@@ -20,7 +20,7 @@ local HitboxTab = Window:CreateTab("Hitbox", 4483362458)
 local MiscTab = Window:CreateTab("Misc", 4483362458)
 InfoTab:CreateParagraph({
    Title = "Hello",
-   Content = "I'm Black Weed. I like to provide people cheats for free. F*** paid cheats."
+   Content = "Delta? Yes Delta and Xeno is only executer that supporting this script"
 })
 
 -- Globals
