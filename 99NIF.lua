@@ -12,12 +12,12 @@ local Window = Rayfield:CreateWindow({
 })
 
 -- Tabs
-local InfoTab = Window:CreateTab("Info", 4483362458)
-local ESPTab = Window:CreateTab("ESP", 4483362458)
-local TeleportTab = Window:CreateTab("Teleport", 4483362458)
-local BringTab = Window:CreateTab("Bring Items", 4483362458)
-local HitboxTab = Window:CreateTab("Hitbox", 4483362458)
-local MiscTab = Window:CreateTab("Misc", 4483362458)
+local InfoTab = Window:CreateTab("Info", "info")
+local ESPTab = Window:CreateTab("ESP", "eye")
+local TeleportTab = Window:CreateTab("Teleport", "gallery-vertical-end")
+local BringTab = Window:CreateTab("Bring Items", "square-mouse-pointer")
+local HitboxTab = Window:CreateTab("Hitbox", "axe")
+local MiscTab = Window:CreateTab("Misc", "flag")
 InfoTab:CreateParagraph({
    Title = "Hello",
    Content = "Delta? Yes Delta and Xeno is only executer that supporting this script"
