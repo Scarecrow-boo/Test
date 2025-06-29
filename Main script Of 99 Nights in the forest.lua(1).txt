@@ -2,12 +2,13 @@
 local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "🌲 99 Nights in Forest",
+   Name = "Ro-Breaker | 99 Nights In Forest",
    LoadingTitle = "99 Nights in Forest",
-   LoadingSubtitle = "Made by SyzenHub",
+   LoadingSubtitle = "Made with ♥️",
    ConfigurationSaving = { Enabled = false },
    Discord = { Enabled = false },
    KeySystem = false,
+   Theme = "Green",
 })
 
 -- Tabs
