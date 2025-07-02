@@ -526,12 +526,12 @@ do
 end 
 
 local Window = Fluent:CreateWindow({
-	Title = "Breaker Hub | Fisch",
-	SubTitle = ".gg/DMNXkC6CYB",
+	Title = "Ro-Breaker Hub | Fisch",
+	SubTitle = "(.gg/DMNXkC6CYB)",
 	TabWidth = 160,
 	Size = UDim2.fromOffset(490, 360),
 	Acrylic = false,
-	Theme = "Green",
+	Theme = "Aqua",
 	MinimizeKey = Enum.KeyCode.LeftControl 
 })
 
