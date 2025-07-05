@@ -10,7 +10,7 @@ local Window = WindUI:CreateWindow({
     Title = "This is testing version",
     Icon = nil,
     Author = "Hello!?",
-    Theme = "Dark",
+    Theme = nil,
     Size = UDim2.fromOffset(500, 350),
     HasOutline = true,
 })
