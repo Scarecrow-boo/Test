@@ -6,18 +6,18 @@ local RunService = game:GetService("RunService")
 local Workspace = game:GetService("Workspace")
 
 local Window = WindUI:CreateWindow({
-    Folder = "Test v2",   
-    Title = "This is testing version",
+    Folder = "99NiF_Ro-Breaker",   
+    Title = "Ro-Breaker | 99 Nights In Forest",
     Icon = nil,
-    Author = "Hello!?",
+    Author = "Join server discord.gg/DMNXkC6CYB",
     Theme = "Dark",
     Size = UDim2.fromOffset(500, 350),
     HasOutline = true,
 })
 
 Window:EditOpenButton({
-    Title = "Get Ready?",
-    Icon = "monitor",
+    Title = "Open Window",
+    Icon = "app-window",
     CornerRadius = UDim.new(0, 6),
     StrokeThickness = 2,
     Color = ColorSequence.new(Color3.fromRGB(30, 30, 30), Color3.fromRGB(255, 255, 255)),
